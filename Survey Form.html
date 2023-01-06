@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css" />
+    <title>Survey Form</title>
+     </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+ <fieldset>
+    <div class="form-group">
+<form id="survey-form">
+      <container>
+       <label>Name<input type="text" name="first-name" id="name" required  placeholder="Enter Your  Name"/></label>
+      
+    
+        <label>Email<input type="email" name="mail" required id="email" placeholder="Enter Your Email"/></label> 
+       <label>Age (optional): <input type="number" name="age" min="13" max="120" id="number" placeholder="Age"/>
+			  </label>
+        
+          <div class="form-group">
+ <label id="name-label">Would you recommend free codecamp to your friend
+   <input type="radio" checked name="rec" value="rad"/>Definitely
+	 <input type="radio" name="rec" value="rad"/>Maybe
+<input type="radio" name="rec"  value="rad"/>Not sure
+</label>
+  </div>
+ 
+
+ <label id="email-label">What is your favourite feature of freecodecamp?
+  <select name="referrer" id="dropdown">
+            <option value="">select an option</option>
+            <option value="1">challange</option>
+            <option value="2">community</option>
+            <option value="3">projects</option>
+           <option value="4">open source</option>
+          </select>
+        </label>
+       
+      
+  <label id="number-label">What would you like to see get improved? (check all that apply)
+<input type="checkbox" value="check"/>Wiki
+<input type="checkbox" value="check"/>Forum
+<input type="checkbox" value="check"/>Additional courses
+</label>
+
+
+ <label>Any comments or suggetions?
+          <textarea name="bio" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+			  </label>
+      
+       
+            <input type="submit" value="Submit" id="submit" />
+    </div>
+    </form>
+   </fieldset>
+    </fieldset>
+     </body>
+</html> 
